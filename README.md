@@ -26,7 +26,7 @@ ht.tag("strong", "This text is bold.")
 ht.tagA("strong", { style:"text-align: right;" }, "This is bold, right-aligned text.")
 // returns: <strong style="text-align: right">This is bold, right-aligned text.</strong>
 ht.sTagA("img", { src:"myImage.png" })
-// returns <img src="myImage.png" />
+// returns: <img src="myImage.png" />
 ````
 
 ## Required Libraries:
