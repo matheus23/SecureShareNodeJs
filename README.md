@@ -22,8 +22,11 @@ Using the functions:
 ````javascript
 // Examples:
 ht.tag("strong", "This text is bold.")
+// returns: <strong>This text is bold</strong>
 ht.tagA("strong", { style:"text-align: right;" }, "This is bold, right-aligned text.")
-ht.sTagA("img", { src:"myImage.png" }) // This returns <img src="myImage.png" />
+// returns: <strong style="text-align: right">This is bold, right-aligned text.</strong>
+ht.sTagA("img", { src:"myImage.png" })
+// returns <img src="myImage.png" />
 ````
 
 ## Required Libraries:
